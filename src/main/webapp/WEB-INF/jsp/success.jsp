@@ -33,23 +33,20 @@
 			</div>
 		</div>
 	</nav>
-	<form method="POST" action="/changeDesire">
+	
 		<div class="container">
 
 			<div class="starter-template">
-				<h1>Spring Boot Web JSP Example</h1>
-				<h2>Message: ${message}</h2>
-				<h2>Temperature: ${temperature}</h2>
-				<h2>Humidity: ${humidity} %</h2>
-				<h2>Last Update: ${lastUpdate}</h2>
+				
+				
+				
 				<h2>
-					Desired Temperature: <input type="text" name="temperature"
-						value="${desiredTemperature}" />
+					Desired Temperature has been changed.
 				</h2>
 			</div>
-			<input type="submit" value="Submit"/>
+			
 		</div>
-	</form>
+	
 	<script type="text/javascript"
 		src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
